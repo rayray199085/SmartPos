@@ -49,6 +49,8 @@
 		0DE450292421DEB10025A1F7 /* POSCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE450282421DEB10025A1F7 /* POSCommon.swift */; };
 		0DE450312421E3EC0025A1F7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE450302421E3EC0025A1F7 /* MainViewController.swift */; };
 		0DE450332421E4650025A1F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE450322421E4650025A1F7 /* Main.storyboard */; };
+		0DE4503724232C4C0025A1F7 /* SCMenuFunctionButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DE4503624232C4C0025A1F7 /* SCMenuFunctionButton.xib */; };
+		0DE4503924232C720025A1F7 /* SCMenuFunctionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE4503824232C720025A1F7 /* SCMenuFunctionButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +110,8 @@
 		0DE450282421DEB10025A1F7 /* POSCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSCommon.swift; sourceTree = "<group>"; };
 		0DE450302421E3EC0025A1F7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0DE450322421E4650025A1F7 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0DE4503624232C4C0025A1F7 /* SCMenuFunctionButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCMenuFunctionButton.xib; sourceTree = "<group>"; };
+		0DE4503824232C720025A1F7 /* SCMenuFunctionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCMenuFunctionButton.swift; sourceTree = "<group>"; };
 		2B9E699E384D107C2D5D6BC1 /* Pods_SmartPos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartPos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7082C130BE0F55F30D6DDB8E /* Pods-SmartPos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartPos.debug.xcconfig"; path = "Target Support Files/Pods-SmartPos/Pods-SmartPos.debug.xcconfig"; sourceTree = "<group>"; };
 		F216ECA7E6093851BD6D1508 /* Pods-SmartPos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartPos.release.xcconfig"; path = "Target Support Files/Pods-SmartPos/Pods-SmartPos.release.xcconfig"; sourceTree = "<group>"; };
@@ -271,10 +275,20 @@
 		0DE4502A2421DFDC0025A1F7 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				0DE4503524232C160025A1F7 /* Menu Function Button */,
 				0DE450302421E3EC0025A1F7 /* MainViewController.swift */,
 				0DE450322421E4650025A1F7 /* Main.storyboard */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		0DE4503524232C160025A1F7 /* Menu Function Button */ = {
+			isa = PBXGroup;
+			children = (
+				0DE4503624232C4C0025A1F7 /* SCMenuFunctionButton.xib */,
+				0DE4503824232C720025A1F7 /* SCMenuFunctionButton.swift */,
+			);
+			path = "Menu Function Button";
 			sourceTree = "<group>";
 		};
 		39D3A5ECD0CB03D07005651F /* Pods */ = {
@@ -322,6 +336,7 @@
 		0DE44FAE2421DA6A0025A1F7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SC;
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Stephen Cao";
@@ -356,6 +371,7 @@
 			files = (
 				0DE450332421E4650025A1F7 /* Main.storyboard in Resources */,
 				0DE44FC62421DA710025A1F7 /* LaunchScreen.storyboard in Resources */,
+				0DE4503724232C4C0025A1F7 /* SCMenuFunctionButton.xib in Resources */,
 				0DE44FC32421DA710025A1F7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +428,7 @@
 				0DE4501A2421DD170025A1F7 /* UIButton+SCAddition.m in Sources */,
 				0DE450062421DD170025A1F7 /* NSAttributedString+extension.swift in Sources */,
 				0DE450212421DD170025A1F7 /* UIScreen+UISCreen_extenshion.m in Sources */,
+				0DE4503924232C720025A1F7 /* SCMenuFunctionButton.swift in Sources */,
 				0DE450292421DEB10025A1F7 /* POSCommon.swift in Sources */,
 				0DE4500D2421DD170025A1F7 /* UINavigationController+extension.swift in Sources */,
 				0DE450312421E3EC0025A1F7 /* MainViewController.swift in Sources */,

@@ -15,6 +15,7 @@ struct POSCommon{
         formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
         return formatter
     }()
+    static let margin: CGFloat = 5
     //#56baed
     static let tinColor = UIColor(displayP3Red: 86.0 / 255, green: 186.0 / 255, blue: 237.0 / 255, alpha: 1.0)
     static let barColor = UIColor(displayP3Red: 237.0 / 255, green: 237.0 / 255, blue: 237.0 / 255, alpha: 1.0)
