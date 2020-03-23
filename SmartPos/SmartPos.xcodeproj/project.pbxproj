@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0028D6A6CE4F4DC7B5841EC5 /* Pods_SmartPos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9E699E384D107C2D5D6BC1 /* Pods_SmartPos.framework */; };
+		0DBC800A24288FA000852BAD /* menuInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DBC800924288FA000852BAD /* menuInfo.plist */; };
 		0DE44FBA2421DA6A0025A1F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE44FB92421DA6A0025A1F7 /* AppDelegate.swift */; };
 		0DE44FBC2421DA6A0025A1F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE44FBB2421DA6A0025A1F7 /* SceneDelegate.swift */; };
 		0DE44FC32421DA710025A1F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE44FC22421DA710025A1F7 /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DBC800924288FA000852BAD /* menuInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = menuInfo.plist; sourceTree = "<group>"; };
 		0DE44FB62421DA6A0025A1F7 /* SmartPos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartPos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE44FB92421DA6A0025A1F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DE44FBB2421DA6A0025A1F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -278,6 +280,7 @@
 				0DE4503524232C160025A1F7 /* Menu Function Button */,
 				0DE450302421E3EC0025A1F7 /* MainViewController.swift */,
 				0DE450322421E4650025A1F7 /* Main.storyboard */,
+				0DBC800924288FA000852BAD /* menuInfo.plist */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 			files = (
 				0DE450332421E4650025A1F7 /* Main.storyboard in Resources */,
 				0DE44FC62421DA710025A1F7 /* LaunchScreen.storyboard in Resources */,
+				0DBC800A24288FA000852BAD /* menuInfo.plist in Resources */,
 				0DE4503724232C4C0025A1F7 /* SCMenuFunctionButton.xib in Resources */,
 				0DE44FC32421DA710025A1F7 /* Assets.xcassets in Resources */,
 			);

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>icons</key>
+	<array>
+		<dict>
+			<key>image</key>
+			<string>reservation</string>
+			<key>name</key>
+			<string>Reservation</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>tableService</string>
+			<key>name</key>
+			<string>Table Service</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>quickService</string>
+			<key>name</key>
+			<string>Quick Service</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>phoneOrder</string>
+			<key>name</key>
+			<string>Phone Order</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>menuSetup</string>
+			<key>name</key>
+			<string>Menu Setup</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>dailyReport</string>
+			<key>name</key>
+			<string>Daily Report</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>attendanceRecord</string>
+			<key>name</key>
+			<string>Attendance Record</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>logout</string>
+			<key>name</key>
+			<string>Louout</string>
+		</dict>
+	</array>
+</dict>
+</plist>

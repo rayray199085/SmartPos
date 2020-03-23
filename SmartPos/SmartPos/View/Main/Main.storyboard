@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wf1-JF-Yj0">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="ipad12_9rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,22 +12,22 @@
             <objects>
                 <viewController id="wf1-JF-Yj0" customClass="MainViewController" customModule="SmartPos" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dZG-yD-tX2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VMH-3h-jTc">
-                                <rect key="frame" x="5" y="347" width="404" height="202"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <rect key="frame" x="341.5" y="341.5" width="683" height="341.5"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="VMH-3h-jTc" secondAttribute="height" multiplier="2:1" id="4e2-yy-udG"/>
+                                    <constraint firstAttribute="width" secondItem="VMH-3h-jTc" secondAttribute="height" multiplier="2:1" id="FVU-lt-yEy"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="VMH-3h-jTc" firstAttribute="centerY" secondItem="dZG-yD-tX2" secondAttribute="centerY" id="Pdt-fO-YcA"/>
-                            <constraint firstItem="unZ-9Y-ULt" firstAttribute="trailing" secondItem="VMH-3h-jTc" secondAttribute="trailing" constant="5" id="XA8-nO-5zX"/>
-                            <constraint firstItem="VMH-3h-jTc" firstAttribute="leading" secondItem="unZ-9Y-ULt" secondAttribute="leading" constant="5" id="oJi-Z0-57Z"/>
+                            <constraint firstItem="VMH-3h-jTc" firstAttribute="centerX" secondItem="dZG-yD-tX2" secondAttribute="centerX" id="RF4-Aa-orc"/>
+                            <constraint firstItem="VMH-3h-jTc" firstAttribute="width" secondItem="unZ-9Y-ULt" secondAttribute="width" multiplier="0.5" id="bOh-Vl-uNg"/>
+                            <constraint firstItem="VMH-3h-jTc" firstAttribute="centerY" secondItem="dZG-yD-tX2" secondAttribute="centerY" id="qvn-PC-QsK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="unZ-9Y-ULt"/>
                     </view>

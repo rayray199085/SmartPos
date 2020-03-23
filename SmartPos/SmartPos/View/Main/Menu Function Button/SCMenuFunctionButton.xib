@@ -3,17 +3,51 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XLZ-Io-ZTz" customClass="SCMenuFunctionButton" customModule="SmartPos" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="260" height="273"/>
+        <view contentMode="scaleToFill" id="8M5-2W-2df" customClass="SCMenuFunctionButton" customModule="SmartPos" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="383"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-            <state key="normal" title="Button"/>
-            <point key="canvasLocation" x="208.69565217391306" y="-566.85267857142856"/>
-        </button>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6DJ-TQ-F5r">
+                    <rect key="frame" x="83" y="44" width="248" height="248.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="6DJ-TQ-F5r" secondAttribute="height" multiplier="1:1" id="1iK-4e-dNf"/>
+                    </constraints>
+                    <connections>
+                        <action selector="didClickIconButton:" destination="8M5-2W-2df" eventType="touchUpInside" id="COX-jV-1HP"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Function" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFi-Sc-go4">
+                    <rect key="frame" x="0.0" y="300.5" width="414" height="82.5"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="widthClass=compact">
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                    </variation>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="bFi-Sc-go4" firstAttribute="top" secondItem="6DJ-TQ-F5r" secondAttribute="bottom" constant="8" symbolic="YES" id="8d7-AR-FBT"/>
+                <constraint firstItem="6DJ-TQ-F5r" firstAttribute="width" secondItem="8M5-2W-2df" secondAttribute="width" multiplier="0.6" id="PkI-8p-6T2"/>
+                <constraint firstItem="gPF-in-RyK" firstAttribute="bottom" secondItem="bFi-Sc-go4" secondAttribute="bottom" id="Yuf-EO-5qK"/>
+                <constraint firstItem="gPF-in-RyK" firstAttribute="trailing" secondItem="bFi-Sc-go4" secondAttribute="trailing" id="f1U-Xa-aoJ"/>
+                <constraint firstItem="bFi-Sc-go4" firstAttribute="leading" secondItem="gPF-in-RyK" secondAttribute="leading" id="hnd-8f-ZrM"/>
+                <constraint firstItem="6DJ-TQ-F5r" firstAttribute="centerX" secondItem="8M5-2W-2df" secondAttribute="centerX" id="iBU-Kd-xsT"/>
+                <constraint firstItem="6DJ-TQ-F5r" firstAttribute="top" secondItem="gPF-in-RyK" secondAttribute="top" id="q3F-Ry-EYn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="gPF-in-RyK"/>
+            <connections>
+                <outlet property="buttonLabel" destination="bFi-Sc-go4" id="5ct-tE-g9i"/>
+                <outlet property="iconButton" destination="6DJ-TQ-F5r" id="d0J-or-3GG"/>
+            </connections>
+            <point key="canvasLocation" x="165.21739130434784" y="-742.96875"/>
+        </view>
     </objects>
 </document>
